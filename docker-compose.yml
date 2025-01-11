@@ -51,7 +51,7 @@ services:
       - dbs-network
 
   mongodb:
-    image: mongo:4
+    image: mongo:latest
     container_name: mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
